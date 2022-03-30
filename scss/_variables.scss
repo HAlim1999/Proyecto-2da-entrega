@@ -1,0 +1,16 @@
+//aplicado en header.scss, productos.scss, footer.scss, querie.scss
+$colores: (
+    'medios': #13678A,
+    "fondo": #F3DFDF,
+    "bordes": crimson,
+    "colorLetras": black,
+);
+
+
+//aplicado en header.scss
+@mixin container ($display, $flex-flow, $justify-content,$align-items){
+    display: $display;
+    flex-flow: $flex-flow;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}

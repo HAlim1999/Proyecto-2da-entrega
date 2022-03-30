@@ -1,0 +1,28 @@
+@media(max-width: 1077px){
+    body{
+        margin: 1rem;
+        background: map-get($map: $colores, $key:"fondo" );
+    }
+
+    #carrito{
+        display: none;
+    }
+
+    .grilla header nav ul li a#menu{
+        display: none;
+    }
+
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+
+    .slider{
+        width:100%;
+    }
+    .slider img{
+        width: 70%;
+        margin:auto;
+    }
+
+}

@@ -1,0 +1,62 @@
+*{
+	padding: 0;
+	margin: 0;
+    font-family:"Lexend Deca"
+}
+
+body{
+    box-sizing: border-box;
+    background-image: url("../img/fondo.webp");
+    width: 85%;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0 auto;
+}
+
+.grilla{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows:  auto auto auto auto;
+	grid-template-areas: 
+	"header"
+	"productos"
+    "imgFrase"
+	"footer";
+	grid-column-gap: 0;
+	grid-row-gap: 0;
+
+
+}
+
+.grilla2{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:  auto auto auto auto;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+
+
+}
+header{
+	grid-area: header;
+}
+
+main#productos{
+	grid-area: productos;
+}
+
+aside{
+    grid-area: imgFrase;
+}
+ footer{
+ 	grid-area: footer;
+ }
+
+ main#tortas{
+    grid-area: main;
+ }

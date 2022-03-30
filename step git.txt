@@ -1,0 +1,13 @@
+https://github.com/HAlim1999/Proyecto-2da-entrega.git
+
+echo "# Proyecto-2da-entrega" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/HAlim1999/Proyecto-2da-entrega.git
+git push -u origin master
+
+git remote add origin https://github.com/HAlim1999/Proyecto-2da-entrega.git
+git branch -M master
+git push -u origin master

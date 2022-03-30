@@ -1,0 +1,69 @@
+header{
+    @include container(flex, row wrap, space-between, center)
+    nav{
+        ul{
+            li{
+                list-style: none;
+                font-size: 25px;
+                a#menu{
+                    display: block;
+                    text-decoration: none;
+                    color: map-get($map: $colores, $key:"colorLetras" );
+                    padding: 1rem;
+                    margin: 5px;
+                    border-bottom: 6px solid transparent;
+                    transition: border 0.3s ease;
+                    &:hover{
+                        border-bottom-color: map-get($map: $colores, $key:"bordes" );
+                        transform: translate(10px);
+                        cursor: pointer;
+                    }
+                 }
+            }
+        }
+    }
+}
+
+#carrito{
+    width: 5rem;
+    height: auto;
+    margin: auto;
+}
+
+.slider{
+    width:100%;
+    margin: auto;
+    overflow:hidden;
+}
+
+.slider{
+    img{
+        width: 50%;
+        border-radius: 100%;
+        margin-left: 25%;
+    }
+}
+
+div{
+    section{
+        article{
+            h2{
+                font-family: Pacifico;
+                font-size: 3rem;
+                background-color: map-get($map: $colores, $key: "fondo" );
+
+            }
+        }
+
+    }
+}
+
+h4{
+    font-family:Pacifico;
+    font-size:3rem;
+}
+
+
+
+
+
