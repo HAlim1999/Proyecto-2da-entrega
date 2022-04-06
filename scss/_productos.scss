@@ -6,3 +6,9 @@ main{
         background-color:map-get($map: $colores, $key: "fondo") ;
     }
 }
+
+#Carmela{
+    background: map-get($map: $colores, $key:"bordes" );
+    color: white;
+}
+
