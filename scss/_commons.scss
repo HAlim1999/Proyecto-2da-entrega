@@ -8,13 +8,12 @@
 body{
     box-sizing: border-box;
     background-image: url("../img/fondo.webp");
-    width: 100%;
+    width: 85.2%;
     background-repeat:no-repeat;
     background-size: cover;
     background-attachment: fixed;
     margin: 0 auto;
 }
-
 .grilla{
 	display: grid;
 	grid-template-columns: 1fr;
