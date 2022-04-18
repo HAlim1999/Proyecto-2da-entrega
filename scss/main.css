@@ -4,6 +4,8 @@
   padding: 0;
   margin: 0;
   font-family: "Lexend Deca";
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -195,7 +197,8 @@ h4 {
 
 @media (max-width: 408px) {
   #logo {
-    width: 200px;
+    width: 10em;
+    position: relative;
   }
 }
 /*# sourceMappingURL=main.css.map */
