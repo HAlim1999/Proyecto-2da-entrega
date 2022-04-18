@@ -3,7 +3,6 @@
         margin: 1rem;
         background: map-get($map: $colores, $key:"fondo" );
     }
-
     #carrito{
         display: none;
     }
@@ -25,4 +24,10 @@
         margin:auto;
     }
 
+}
+
+@media(max-width: 408px){
+    #logo{
+        width: 200px;
+    }
 }
