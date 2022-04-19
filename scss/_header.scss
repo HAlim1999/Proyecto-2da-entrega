@@ -1,5 +1,5 @@
 header {
-    @include container(flex, row wrap, space-between, center)
+    @include container(flex, row wrap, space-between, center);
     nav {
         ul {
             li {

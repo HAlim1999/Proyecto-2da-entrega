@@ -5,6 +5,7 @@
     }
     #carrito{
         display: none;
+
     }
 
     .grilla header nav ul li a#menu{
@@ -24,11 +25,21 @@
         margin:auto;
     }
 
+
+}
+
+@media(max-width: 767px){
+    body{
+        width: 100%;
+    }
+    #barra{
+        margin-left: 40%;
+        position: relative;
+    }
 }
 
 @media(max-width: 408px){
     #logo{
-        width: 10em;
-        position: relative;
+        width: 7em;
     }
 }
